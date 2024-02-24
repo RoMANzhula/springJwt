@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/spring_jwt
     username: root
-    password: XXXX
+    password: roman1985
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     generate-ddl: true
@@ -14,3 +14,6 @@ spring:
         format_sql: true
     database: mysql
     database-platform: org.hibernate.dialect.MySQL8Dialect
+
+  jwt:
+    secret-key: 0a62df4240c7fdee16869e8d9f0f9155f6270af6dd378a7d9a09e305311d4966
